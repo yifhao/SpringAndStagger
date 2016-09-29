@@ -17,8 +17,9 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by haoyifen on 16-9-28 2016 下午5:47
  */
-@Api(basePath = "/", value = "user")
-@Controller(value = "user")
+@Api(value = "user")
+@Controller
+@RequestMapping("/user")
 public class UserController {
 
     @Autowired
